@@ -1,0 +1,18 @@
+#!/bin/bash
+
+echo -e "$color$color2 Hostname$ENDCOLOR\t = $color3$color4 $HOSTNAME$ENDCOLOR"
+echo -e "$color$color2 TIMEZONE$ENDCOLOR\t = $color3$color4 $timezone$ENDCOLOR"
+echo -e "$color$color2 USER$ENDCOLOR\t = $color3$color4 $USER$ENDCOLOR"
+echo -e "$color$color2 OS$ENDCOLOR\t = $color3$color4 $OSTYPE$ENDCOLOR"
+echo -e "$color$color2 DATE$ENDCOLOR\t = $color3$color4 $data$ENDCOLOR"
+echo -e "$color$color2 UPTIME$ENDCOLOR\t = $color3$color4 $uptime$ENDCOLOR"
+echo -e "$color$color2 UPTIME_SEC$ENDCOLOR\t = $color3$color4 $uptime_sec$ENDCOLOR"
+echo -e "$color$color2 IP$ENDCOLOR\t = $color3$color4 $ip$ENDCOLOR"
+echo -e "$color$color2 MASK$ENDCOLOR\t = $color3$color4 $mask$ENDCOLOR"
+echo -e "$color$color2 GATEWAY$ENDCOLOR\t = $color3$color4 $gw$ENDCOLOR"
+echo -e "$color$color2 RAM_TOTAL$ENDCOLOR\t = $color3$color4 $ram_total GB $ENDCOLOR"
+echo -e "$color$color2 RAM_USED$ENDCOLOR\t = $color3$color4 $ram_used GB $ENDCOLOR"
+echo -e "$color$color2 RAM_FREE$ENDCOLOR\t = $color3$color4 $ram_free GB $ENDCOLOR"
+echo -e "$color$color2 SPACE_ROOT$ENDCOLOR\t = $color3$color4 $space_root MB $ENDCOLOR"
+echo -e "$color$color2 SPACE_ROOT_USED$ENDCOLOR\t = $color3$color4 $space_root_used MB $ENDCOLOR"
+echo -e "$color$color2 SPACE_ROOT_FREE$ENDCOLOR\t = $color3$color4 $space_root_free MB $ENDCOLOR"
